@@ -10,7 +10,7 @@ links:
      url: http://www.nasa.gov/centers/dryden/Features/stanford_mini_uav_prt.htm
    - title: Stanford News Article
      url: http://news.stanford.edu/news/2009/september14/airplane-self-pilot-091809.html
-   - title: Youtube Video
+   - title: YouTube
      url: https://www.youtube.com/watch?v=K2Gq_iUnmaQ  
 description: |
   <p class="lead">As part of a group of Stanford Aero/Astro students, we set an altitude record

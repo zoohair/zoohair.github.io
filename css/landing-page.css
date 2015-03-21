@@ -71,6 +71,9 @@ html, body {
     font-size: 16px;
   }
 }
+
+
+
 #topnav {
   position: absolute;
   top: 0;
@@ -96,6 +99,42 @@ li {
 #topnav ul {
   font-size: 26px;
 }
+
+
+#topnavLeft {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px 10px 5px 10px;
+  margin: 5px;
+  border: 1px solid #FFF;
+}
+#topnavLeft a {
+  color: white;
+}
+#topnavLeft a:hover {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+#topnavLeft ul {
+  font-size: 26px;
+}
+
+
+
+
+
+
+
+
+
 .svgico {
   display: inline-block;
 }

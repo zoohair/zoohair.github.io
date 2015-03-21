@@ -34,13 +34,13 @@
 <hr class="soft">
 
 <div class="container">
-  <h2>Projects</h2>
+  <h2>Projects & Publications</h2>
   <div id="pubs">
 
 {% for post in site.posts  %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
 
-   {% if forloop.index == 2 %}
+   {% if forloop.index == 4 %}
     <div class="showmore" id="showmorepubs">
     More
     </div>
@@ -71,7 +71,7 @@
       </div>
     </div>
 
-   {% if forloop.index == 2 %}
+   {% if forloop.index == 4 %}
     </div>
    {% endif %}
 
