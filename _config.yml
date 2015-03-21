@@ -3,9 +3,6 @@
 # ----------------------- #
 
 url: http://zoohair.github.io
-title: Zouhair Mahboubi
-email: zouhair.mahboubi _at_ gmail
-description: Aerospace Engineer. PhD Candidate
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -15,13 +12,4 @@ description: Aerospace Engineer. PhD Candidate
 markdown: kramdown
 permalink: pretty
 
-# ----------------------- #
-#   3rd Party Settings    #
-# ----------------------- #
-
-social:
-  - title: linkedin
-    url: https://linkedin.com/pub/zouhair
-  - title: github
-    url: https://github.com/zoohair
 

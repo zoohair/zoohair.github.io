@@ -4,8 +4,9 @@
     <div class="timelineitem">
       <div class="tdate">2012 - </div>
       <div class="ttitle">Stanford Aero/Astro: PhD Candidate</div>
-<!--       <div class="tdesc"> <span class="thigh">Deep Learning</span> for Videos.</div>
- -->    </div>
+      <div class="tdesc"> Focus on <span class="thigh">Decision Making under Uncertainty</span>.</div>
+    
+    </div>
     <div class="timelineitem">
       <div class="tdate">2010-</div>
       <div class="ttitle">Zee.Aero</div>
@@ -13,7 +14,7 @@
     </div>
     <div class="timelineitem">
       <div class="tdate">2008-2010</div>
-      <div class="ttitle">Stanford AAero/Astro: Masters of Science</div>
+      <div class="ttitle">Stanford Aero/Astro: Masters of Science</div>
       <div class="tdesc">Outstanding Student Award</div>
     </div>
     <div class="timelineitem">
@@ -26,7 +27,7 @@
 
 <div class="container quote">
   <blockquote>
-“The real voyage of discovery consists not in seeking new landscapes, but in having new eyes.” <br>― Marcel Proust
+“The real voyage of discovery consists not in seeking new landscapes,<br> but in having new eyes.” ― Marcel Proust
   </blockquote>
 </div>
 
@@ -36,14 +37,12 @@
   <h2>Projects</h2>
   <div id="pubs">
 
-
-
 {% for post in site.posts  %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
 
    {% if forloop.index == 2 %}
     <div class="showmore" id="showmorepubs">
-    show more
+    More
     </div>
     <div id="morepubs">
    {% endif %}
@@ -52,7 +51,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="pubimg">
-          <img height="200px" src="img/projects/{{ post.img }}">
+          <img width="300px" src="img/projects/{{ post.img }}">
           </div>
         </div>
         <div class="col-md-6">
