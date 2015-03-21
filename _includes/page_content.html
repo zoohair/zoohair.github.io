@@ -1,50 +1,83 @@
 <!-- Page Content -->
-{% for post in site.posts reversed %}
+<div class="container">
+  <div id="timeline">
+    <div class="timelineitem">
+      <div class="tdate">2012 - </div>
+      <div class="ttitle">Stanford Aero/Astro: PhD Candidate</div>
+<!--       <div class="tdesc"> <span class="thigh">Deep Learning</span> for Videos.</div>
+ -->    </div>
+    <div class="timelineitem">
+      <div class="tdate">2010-</div>
+      <div class="ttitle">Zee.Aero</div>
+      <div class="tdesc">Guidance Navigation & Controls Engineer</div>
+    </div>
+    <div class="timelineitem">
+      <div class="tdate">2008-2010</div>
+      <div class="ttitle">Stanford AAero/Astro: Masters of Science</div>
+      <div class="tdesc">Outstanding Student Award</div>
+    </div>
+    <div class="timelineitem">
+     <div class="tdate">2004-2008</div>
+      <div class="ttitle">McGill University: Bachelors of Engineering</div>
+      <div class="tdesc">Mechanical Engineering major, Computer science minor</div>
+    </div>
+  </div>
+</div>
+
+<div class="container quote">
+  <blockquote>
+“The real voyage of discovery consists not in seeking new landscapes, but in having new eyes.” <br>― Marcel Proust
+  </blockquote>
+</div>
+
+<hr class="soft">
+
+<div class="container">
+  <h2>Projects</h2>
+  <div id="pubs">
+
+
+
+{% for post in site.posts  %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-    {% if thecycle == 'odd' %}
-    <div class="content-section-a">
 
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">{{ post.title }}</h2>
-                    {{ post.description }}
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
+   {% if forloop.index == 2 %}
+    <div class="showmore" id="showmorepubs">
+    show more
     </div>
-    <!-- /.content-section-a -->
-    {% else %}
+    <div id="morepubs">
+   {% endif %}
 
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">{{ post.title }}</h2>
-                    {{ post.description }}
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                  <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
-                </div>
-            </div>
-
+    <div class="pubwrap">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="pubimg">
+          <img height="200px" src="img/projects/{{ post.img }}">
+          </div>
         </div>
-        <!-- /.container -->
-
+        <div class="col-md-6">
+          <div class="pub">
+            <div class="pubt">{{ post.title }}</div>
+            <div class="pubd">{{ post.description }}</div>
+            <div class="puba">{{ post.authors }}</div>
+            <div class="pubv">{{ post.venue }}</div>
+            <div class="publ">
+              <ul>{% for link in post.links %}
+                  <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                  {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- /.content-section-b -->
-    {% endif %}
+
+   {% if forloop.index == 2 %}
+    </div>
+   {% endif %}
+
 {% endfor %}
+
+
+  </div>
+</div>
