@@ -11,7 +11,7 @@ description: |
 
 links:
   - title: IEEE Workshop
-    url: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4062552
+    url: https://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4062552
 
 venue: Technische Universitat Muenchen, 2006
 authors: Zouhair Mahboubi and Stella Clarke

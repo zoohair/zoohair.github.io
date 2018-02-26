@@ -7,9 +7,9 @@ venue: NASA Dryden, 2009
 authors: Stanford AA241X Team
 links:
    - title: NASA Article
-     url: http://www.nasa.gov/centers/dryden/Features/stanford_mini_uav_prt.htm
+     url: https://www.nasa.gov/centers/dryden/Features/stanford_mini_uav_prt.htm
    - title: Stanford News Article
-     url: http://news.stanford.edu/news/2009/september14/airplane-self-pilot-091809.html
+     url: https://news.stanford.edu/news/2009/september14/airplane-self-pilot-091809.html
    - title: YouTube
      url: https://www.youtube.com/watch?v=K2Gq_iUnmaQ  
 description: |

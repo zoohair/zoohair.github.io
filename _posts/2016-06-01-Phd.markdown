@@ -14,9 +14,9 @@ links:
   - title: Thesis
     url: https://searchworks.stanford.edu/view/11688594
   - title: ITS2017
-    url: http://ieeexplore.ieee.org/abstract/document/7549107/
+    url: https://ieeexplore.ieee.org/abstract/document/7549107/
   - title: CDC2015
-    url: http://ieeexplore.ieee.org/abstract/document/7402670/
+    url: https://ieeexplore.ieee.org/abstract/document/7402670/
   - title: ATM2015
     url: https://pdfs.semanticscholar.org/c5b8/b44e29d57a8552499871806e42fe43b4e63e.pdf
 ---

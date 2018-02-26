@@ -11,5 +11,5 @@ description: |
 
 links:
   - title: AIAA Paper
-    url: http://arc.aiaa.org/doi/abs/10.2514/6.2011-1658
+    url: https://arc.aiaa.org/doi/abs/10.2514/6.2011-1658
 ---
