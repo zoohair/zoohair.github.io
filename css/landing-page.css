@@ -138,6 +138,7 @@ li {
 
 .svgico {
   display: inline-block;
+  padding: 5px;
 }
 #timeline {
   font-size: 20px;
