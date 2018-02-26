@@ -38,10 +38,10 @@
 </div>
 
 <div class="container quote">
-  <blockquote>
+<!--   <blockquote>
 “The real voyage of discovery consists not in seeking new landscapes,<br> but in having new eyes.” ― Marcel Proust
   </blockquote>
-</div>
+ --></div>
 
 <hr class="soft">
 
@@ -52,7 +52,7 @@
 {% for post in site.posts  %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
 
-   {% if forloop.index == 5 %}
+   {% if forloop.index == 100 %}
     <div class="showmore" id="showmorepubs">
     More
     </div>

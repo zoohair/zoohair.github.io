@@ -11,7 +11,7 @@ html, body {
   margin-bottom: 40px;
 }
 .bg1 {
-  background-image: url('../img/intro-bg.jpg');
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/intro-bg.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -21,15 +21,15 @@ html, body {
 }
 #headerblob {
   position: absolute;
-  left: 20%;
+  left: 26%;
   top: 30%;
   width: 50%;
 }
 #headertext {
   font-size: 26px;
   font-weight: 400;
-  margin-top: 40px;
-  margin-left: 35%;
+  margin-top: 10px;
+  margin-left: 37%;
 }
 .imgme {
   border: 3px solid white;
@@ -75,18 +75,18 @@ html, body {
 
 
 
-#topnav {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 5px 10px 5px 10px;
-  margin: 10px;
-  border: 1px solid #FFF;
+#resume {
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*right: 0;*/
+  /*padding: 5px 10px 5px 10px;*/
+  /*margin: 10px;*/
+  /*border: 1px solid #FFF;*/
 }
-#topnav a {
+#resume a {
   color: white;
 }
-#topnav a:hover {
+#resume a:hover {
   text-decoration: none;
 }
 ul {
@@ -97,8 +97,9 @@ ul {
 li {
   display: inline;
 }
-#topnav ul {
-  font-size: 26px;
+#resume ul {
+  font-size: 16px;
+  text-decoration: underline;
 }
 
 

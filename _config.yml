@@ -13,3 +13,20 @@ markdown: kramdown
 permalink: pretty
 
 
+plugins:
+  - jekyll-seo-tag
+
+
+
+social:
+  - title: linkedin
+    url: https://linkedin.com/pub/zouhair
+  - title: github
+    url: https://github.com/zoohair
+  - title: facebook
+    url: https://facebook.com/zoohair
+
+
+description: Different projects Zouhair worked on during his career
+author: Zouhair Mahboubi
+
