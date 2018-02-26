@@ -8,7 +8,7 @@ html, body {
   height: 500px;
   font-weight: 300;
   color: white;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 .bg1 {
   background-image:  linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/intro-bg.jpg');
@@ -231,6 +231,12 @@ li {
 }
 .quote blockquote {
   font-size: 28px;
+}
+h1 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 50px;
+  /*padding: -10px 0px -10px;*/
 }
 h2 {
   text-align: center;
