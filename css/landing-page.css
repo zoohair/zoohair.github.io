@@ -28,13 +28,14 @@ html, body {
 #headertext {
   font-size: 26px;
   font-weight: 400;
-  margin-top: 50px;
-  margin-left: 30%;
+  margin-top: 40px;
+  margin-left: 35%;
 }
 .imgme {
   border: 3px solid white;
   /* box-shadow: #AAA 0px 0px 4px 0px; */
   float: left;
+  height: 200px;
 }
 #htname {
   font-size: 46px;
@@ -268,6 +269,8 @@ hr.soft {
 .pubd {  
   font-size: 18px;
   font-weight: 300;
+  text-align: justify;
+  /*text-justify: inter-word;*/
 }
 .pubimg {
   text-align: center;

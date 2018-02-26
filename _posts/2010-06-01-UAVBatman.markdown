@@ -2,11 +2,11 @@
 layout: default
 img: Batman.png
 category: projects
-title: Camera Based Localization for <br>Autonomous UAV Formation Flight<br>2011
-venue: AIAA@Infotech
+title: Camera Based Localization for <br>Autonomous UAV Formation Flight
+venue: AIAA@Infotech, 2011
 authors: Z. Mahboubi, Z. Kolter, T. Wang, G. Bower and A. Ng
 description: |
-  <p class="lead">Using computer vision, we determined the relative position between two UAVs in formation flight. The goal was to demonstrate power savings when operating in the wake of an aircraft.</p>
+  Using computer vision, we determined the relative position between two UAVs in formation flight. The goal was to demonstrate power savings when operating in the wake of an aircraft.
 
 links:
   - title: AIAA Paper

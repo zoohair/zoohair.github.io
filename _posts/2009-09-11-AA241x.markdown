@@ -2,9 +2,9 @@
 layout: default
 img: nasa_record.jpg
 category: projects
-title: Small Autonomous UAV Altitude Record<br>2009
+title: Small Autonomous UAV Altitude Record
 venue: NASA Dryden
-authors: Stanford AA241X Team
+authors: Stanford AA241X Team, 2009
 links:
    - title: NASA Article
      url: http://www.nasa.gov/centers/dryden/Features/stanford_mini_uav_prt.htm
@@ -13,6 +13,6 @@ links:
    - title: YouTube
      url: https://www.youtube.com/watch?v=K2Gq_iUnmaQ  
 description: |
-  <p class="lead">As part of a group of Stanford Aero/Astro students, we set an altitude record
-  using small UAVs. We launched them from NASA's Dryden restricted airspace.</p>
+  As part of a group of Stanford Aero/Astro students, we set an altitude record
+  using small UAVs. We launched them from NASA's Dryden restricted airspace.
 ---

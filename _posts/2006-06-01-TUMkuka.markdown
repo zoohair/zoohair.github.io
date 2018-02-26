@@ -2,14 +2,13 @@
 layout: default
 img: kuka.gif
 category: projects
-title: Haptic Control of Industrial Robots<br>2006
+title: Haptic Control of Industrial Robots
 description: |
-  <p class="lead">Hacked around with a Haptic pen to control an industrial Kuka robot. I had fun with 
-  	some 3D stereo visualization as well, and .NET/C++ APIs which eventually lead to an IEEE workshop paper</p>
+  I played around with a Haptic pen to control an industrial Kuka robot. I used 3D stereo visualization to illustated the scene. I also implemented a .NET/C++ APIs which eventually lead to an IEEE workshop paper.
 links:
-  - title: IEEE workshop paper
+  - title: IEEE Workshop
     url: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4062552
 
-venue: Technische Universitat Muenchen
+venue: Technische Universitat Muenchen, 2006
 authors: Zouhair Mahboubi and Stella Clarke
 ---
