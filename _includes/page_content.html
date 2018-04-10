@@ -46,7 +46,7 @@
 
 <hr class="soft">
 <div class="container">
-  <h2>Projects & Publications</h2>
+  <h2>Projects</h2>
   <div id="pubs">
 
 {% for post in site.posts  %}
@@ -63,8 +63,19 @@
       <div class="row">
         <div class="col-md-6">
           <div class="pubimg">
-          <img width="350px" src="img/projects/{{ post.img }}">
+          <img width="350px" src="img/projects/{{ post.img }}" 
+               class="hover-shadow" onclick="openModal({{ forloop.index }});">
           </div>
+
+          <!-- The Modal -->
+          <div id="myModal_{{forloop.index}}" class="modal">
+            <span class="close cursor" onclick="closeModal({{ forloop.index }});">&times;</span>
+            <div class="modal-content">
+               <img src="img/projects/{{ post.img }}" style="width:100%">
+            </div>
+
+          </div>
+
         </div>
         <div class="col-md-6">
           <div class="pub">

@@ -5,8 +5,10 @@
 <script src="js/bootstrap.min.js"></script>
 
 
+<!-- ******************** -->
+<!-- More Projects button -->
+<!-- ******************** -->
 <script>
-
 var more_projects_shown = false;
 function start() {
   $("#showmoreprojects").click(function() {
@@ -38,6 +40,23 @@ function start() {
     }
   });
 
+}
+</script>
+
+
+<!-- ******************** -->
+<!-- Modal Java Script -->
+<!-- ******************** -->
+<script>
+
+ // Open the Modal
+function openModal(idx) {
+  document.getElementById('myModal_' + idx).style.display = "block";
+}
+
+// Close the Modal
+function closeModal(idx) {
+  document.getElementById('myModal_' + idx).style.display = "none";
 }
 
 </script>

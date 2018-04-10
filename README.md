@@ -19,4 +19,17 @@ links: #List of links
 venue: where was this?
 authors: who did this?
 ---
+
+```
+
+To run locally:
+```
+#Install tools
+brew install ruby
+gem install bundler
+#Add this in bashrc
+export LC_ALL="en_US.UTF-8"
+export LANG="en_US.UTF-8"
+#Serve locally. Should be available on http://localhost:4000/
+bundle exec jekyll serve
 ```
