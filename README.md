@@ -27,6 +27,7 @@ To run locally:
 #Install tools
 brew install ruby
 gem install bundler
+bundle install #run in local folder
 #Add this in bashrc
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US.UTF-8"
