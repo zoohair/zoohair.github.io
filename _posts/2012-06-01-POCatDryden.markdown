@@ -1,6 +1,6 @@
 ---
 layout: default
-img: DrydenPOC.JPG
+img: DrydenPOC.jpg
 category: projects
 title: Flight-Testing of Proof of Concept eVTOL Aircraft
 venue: Zee.Aero, 2012-2014
